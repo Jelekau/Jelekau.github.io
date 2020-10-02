@@ -72,7 +72,7 @@ footer {
 
 <script>
 function sadText() {
-  document.createElement = <br>"... but nothing happens";
+  document.createElement("nothingHappened").innerHTML = <br>"... but nothing happens";
 }
 </script>
 
@@ -96,6 +96,7 @@ function sadText() {
     <article>
       See on nüüd keskel
       <br>A wild <button id="firstButton" onclick="sadText()">button</button> appears!
+      <p id="nothingHappened"></p>
     </article>
 
 
