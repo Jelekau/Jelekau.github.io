@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.button {
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 24px;
+  margin: 5px 25px;
+  cursor: pointer;
+
+}
+
+/*position: fixed;
+top: 50%;
+left: 50%;
+margin-top: -100px;
+margin-left: -200px;*/
+
+.button1 {background-color: purple;} /* Beta */
+.button2 {background-color: purple;} /* EU */
+.button3 {background-color: purple;} /* US */
+</style>
+</head>
+<body>
+
+<h1>Choose your environment</h1>
+
+<button class="button button1"><a href="https://jelekau.github.io/beta">Beta</a></button></br>
+<button class="button button2"><a href="https://jelekau.github.io/eu">EU</a></button></br>
+<button class="button button3"><a href="https://jelekau.github.io/us">US</a></button></br>
+
+</body>
+</html>
